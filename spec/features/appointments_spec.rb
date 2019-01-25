@@ -1,6 +1,6 @@
 require 'rails_helper'
 
- "appointments", type:  :feature do
+describe "appointments", type:  :feature do
   before do
     @hawkeye = Doctor.create({name: "Hawkeye Pierce", department: "Surgery"})
     @homer = Patient.create({name: "Homer Simpson", age:38})
